@@ -1,0 +1,53 @@
+.support {
+    height: 30rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.support h1 {
+    font-size: 2rem;
+    font-family: "One";
+}
+.support span {
+    color: #fff;
+}
+
+.support-text {
+    display: flex;
+    height:15rem;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.support-logo {
+    height:4rem;
+}
+
+.support-logo img{
+    height:4rem;
+    
+}
+
+.support-logo p{
+    font-size: 0.9rem;
+    font-family: "Open-sans";
+}
+
+hr {
+    height: 1.5rem;
+    background: rgb(99,9,121);
+background: -moz-linear-gradient(90deg, rgba(99,9,121,1) 33%, rgba(0,19,255,1) 63%, rgba(255,255,5,1) 89%);
+background: -webkit-linear-gradient(90deg, rgba(99,9,121,1) 33%, rgba(0,19,255,1) 63%, rgba(255,255,5,1) 89%);
+background: linear-gradient(90deg, rgba(99,9,121,1) 33%, rgba(0,19,255,1) 63%, rgba(255,255,5,1) 89%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#630979",endColorstr="#ffff05",GradientType=1);
+    }
+
+.video {
+    margin: 1rem;
+    display: flex;
+    padding-left: 11%;
+    justify-content: center;
+    width:calc(100% - 400px);
+    align-items: center;
+    
+}
+

@@ -1,0 +1,76 @@
+.about {
+    height: 55rem;
+    
+}
+
+.about h1 {
+    font-size: 1.2rem;
+    font-family: "One";
+    
+}
+
+.about span{
+    color: rgb(199, 26, 26);
+    font-size: 1.2rem;
+    font-family: "One";
+}
+.about p{
+    font-size: 1rem;
+    font-family: "Open-sans";
+    margin-top: 1rem;
+}
+
+.about img {
+    margin-top: 1rem;
+    height: 75%;
+}
+.team {
+    margin-top: 2rem;
+    height: 30rem;
+}
+
+.team h2{   
+    font-size: 1.2rem;
+    font-family: "One";
+}
+.team span{
+    color: rgb(199, 26, 26);
+    font-size: 1.2rem;
+    font-family: "One";
+}
+
+
+
+.team_list {
+    display: flex;
+    height: 30rem;
+    margin-top: 0.1rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.team-person {
+display: flex;
+padding: 0.5%;
+
+}
+.team-person img {
+    border:5px solid orange;
+    padding: 0.2em;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+}
+
+.team-person h2 {
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    font-family: "One";
+}
+
+.team-person p {
+    padding-left: 1rem;
+    font-size: 1rem;
+    font-family: "Open-sans";
+}
+
